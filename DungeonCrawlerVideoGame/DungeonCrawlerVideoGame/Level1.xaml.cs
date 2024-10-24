@@ -400,10 +400,10 @@ namespace DungeonCrawlerVideoGame
             {
                 idleSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_Idle1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_Idle2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_Idle3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_Idle4.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_Idle1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_Idle2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_Idle3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_Idle4.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_Idle1.png
 
@@ -414,7 +414,7 @@ namespace DungeonCrawlerVideoGame
                 new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight3.png"))),
                 new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight4.png"))),
                 new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/v/OwletMonster_RunRight6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight6.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_RunRight1.png
 
