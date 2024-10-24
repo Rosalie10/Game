@@ -331,12 +331,24 @@
     <Resource Include="Assets\Items\WeaponBar.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Music\Backstreet Boys - I Want It That Way %28Lyrics%29 [ ezmp3.cc ].mp3" />
-    <Content Include="Assets\Music\Faster_8_Bit_Menu.mp3" />
-    <Content Include="Assets\Music\Journey - Don%27t Stop Believin%27 %28Lyrics%29 [ ezmp3.cc ].mp3" />
-    <Content Include="Assets\Music\Justin Timberlake - Can%27t Stop The Feeling! [Lyrics] [ ezmp3.cc ].mp3" />
-    <Content Include="Assets\Music\Mark Ronson - Uptown Funk %28Lyrics%29 ft. Bruno Mars [ ezmp3.cc ].mp3" />
-    <Content Include="Assets\Music\Nostalgia_Fast_PossibleDeathMusic.mp3" />
+    <Content Include="Assets\Music\Backstreet Boys - I Want It That Way %28Lyrics%29 [ ezmp3.cc ].mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Music\Faster_8_Bit_Menu.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Music\Journey - Don%27t Stop Believin%27 %28Lyrics%29 [ ezmp3.cc ].mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Music\Justin Timberlake - Can%27t Stop The Feeling! [Lyrics] [ ezmp3.cc ].mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Music\Mark Ronson - Uptown Funk %28Lyrics%29 ft. Bruno Mars [ ezmp3.cc ].mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Music\Nostalgia_Fast_PossibleDeathMusic.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="Assets\UI\Button_UI2.jpeg" />
     <Resource Include="Assets\UI\Button_UI2Toggle.jpeg" />
     <Resource Include="Assets\UI\derdeplek.png" />

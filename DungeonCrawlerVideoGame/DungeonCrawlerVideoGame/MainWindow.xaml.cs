@@ -46,13 +46,15 @@ namespace DungeonCrawlerVideoGame
 
         private void BackGroundMusic()
         {
-            string backGroundMusic = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "Music", "Faster_8_Bit_Menu.mp3");
+            string backGroundMusic = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets/Music/Faster_8_Bit_Menu.mp3");
+            //C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\Assets\Music\Faster_8_Bit_Menu.mp3
 
             Console.WriteLine($"Trying to load music from: {backGroundMusic}");
 
             mediaPlayer_MainWindow.MediaFailed += (sender, e) =>
             {
                 Console.WriteLine($"Media failed to load: {e.ErrorException?.Message}");
+                MessageBox.Show("Failed to load background music. Please check the file path.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             };
 
             try
@@ -72,6 +74,7 @@ namespace DungeonCrawlerVideoGame
             catch (Exception ex)
             {
                 Console.WriteLine($"Error loading background music: {ex.Message}");
+                MessageBox.Show("An error occurred while loading the background music.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
