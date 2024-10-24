@@ -171,15 +171,15 @@ namespace DungeonCrawlerVideoGame
 
         private void HandleEnter()
         {
-            //if (_menuButtons[_selectedButtonIndex] == StartGame)
-            //{
-            //    OpenIntroduction();
-            //}
+            if (_menuButtons[_selectedButtonIndex] == StartGame)
+            {
+                OpenIntroduction();
+            }
 
-            //if (_menuButtons[_selectedButtonIndex] == Settings)
-            //{
-            //    OpenSettingsScreen();
-            //}
+            if (_menuButtons[_selectedButtonIndex] == Settings)
+            {
+                OpenSettingsScreen();
+            }
 
             if (_menuButtons[_selectedButtonIndex] == ExitGame)
             {
@@ -187,19 +187,19 @@ namespace DungeonCrawlerVideoGame
             }
         }
 
-        //private void OpenIntroduction()
-        //{
-        //    Introduction Intro = new Introduction();
-        //    Intro.Show(); // Open het SettingsScreen
-        //    this.Close(); // Sluit het huidige venster als dat nodig is
-        //}
+        private void OpenIntroduction()
+        {
+            Introduction Intro = new Introduction();
+            Intro.Show(); // Open het SettingsScreen
+            this.Close(); // Sluit het huidige venster als dat nodig is
+        }
 
-        //private void OpenSettingsScreen()
-        //{
-        //    SettingsScreen thirdWindow = new SettingsScreen();
-        //    thirdWindow.Show();
-        //    this.Close(); // Sluit het huidige venster als dat nodig is
+        private void OpenSettingsScreen()
+        {
+            SettingsScreen thirdWindow = new SettingsScreen();
+            thirdWindow.Show();
+            this.Close(); // Sluit het huidige venster als dat nodig is
 
-        //}
+        }
     }
 }

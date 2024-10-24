@@ -1026,13 +1026,13 @@ namespace DungeonCrawlerVideoGame
                 Console.WriteLine("Starting chest animation");
                 chestAnimationTimer.Start();
 
-                if (hitBoxMainCharacter.IntersectsWith(hitBoxChest))
-                {
-                    BossFight boss = new BossFight();
-                    this.Close();
-                    boss.Show();
+                //if (hitBoxMainCharacter.IntersectsWith(hitBoxChest))
+                //{
+                //    BossFight boss = new BossFight();
+                //    this.Close();
+                //    boss.Show();
 
-                }
+                //}
             }
 
         }

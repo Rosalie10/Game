@@ -61,7 +61,7 @@
                        Foreground="Black" HorizontalAlignment="Center" Margin="0,0,0,20"/>
 
             <!-- Afbeelding voor volume -->
-            <Image Name="volumeChange" Source="pack://application:,,,/Assets/Menu_UI_Map/VolumeButton/eersteplek.png"
+            <Image Name="volumeChange" Source="pack://application:,,,/Assets\UI\eersteplek.png"
                    Width="320" Height="117" Stretch="Uniform" HorizontalAlignment="Center" Margin="0,0,0,20"/>
 
             <!-- Win factor knop -->
@@ -70,7 +70,7 @@
             FontFamily="{StaticResource PixelFont}" FontSize="25" FontWeight="Bold"
             HorizontalAlignment="Center">
                     <Button.Background>
-                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg" />
+                        <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg" />
                     </Button.Background>
                 </Button>
             </Border>
@@ -82,7 +82,7 @@
                 FontFamily="{StaticResource PixelFont}" FontSize="25" FontWeight="Bold"
                 Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,30,30" Width="131">
             <Button.Background>
-                <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg" />
+                <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg" />
             </Button.Background>
         </Button>
     </Grid>

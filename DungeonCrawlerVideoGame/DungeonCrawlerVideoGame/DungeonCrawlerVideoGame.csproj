@@ -58,6 +58,7 @@
     <Compile Include="Level1.xaml.cs">
       <DependentUpon>Level1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Level1Enemy.cs" />
     <Compile Include="SettingsScreen.xaml.cs">
       <DependentUpon>SettingsScreen.xaml</DependentUpon>
     </Compile>

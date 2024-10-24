@@ -152,7 +152,7 @@ namespace DungeonCrawlerVideoGame
                 }
                 else
                 {
-                    onsterfelijkheid.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Menu_UI_Map/Button_UI2Toggle.jpeg")));
+                    onsterfelijkheid.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/UI/Button_UI2Toggle.jpeg")));
                 }
             }
 
@@ -165,7 +165,7 @@ namespace DungeonCrawlerVideoGame
                 }
                 else
                 {
-                    tijd.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Menu_UI_Map/Button_UI2Toggle.jpeg")));
+                    tijd.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/UI/Button_UI2Toggle.jpeg")));
                 }
             }
 
@@ -178,7 +178,7 @@ namespace DungeonCrawlerVideoGame
                 }
                 else
                 {
-                    vijanden.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Menu_UI_Map/Button_UI2Toggle.jpeg")));
+                    vijanden.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/UI/Button_UI2Toggle.jpeg")));
                 }
             }
 
@@ -196,7 +196,7 @@ namespace DungeonCrawlerVideoGame
                 else // If currently true
                 {
                     wapenStatus = false; // Deactivate the button
-                    wapen.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Menu_UI_Map/Button_UI2Toggle.jpeg")));
+                    wapen.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/UI/Button_UI2Toggle.jpeg")));
                     Console.WriteLine("Loaded ButtonUI2Toggle");
                 }
 

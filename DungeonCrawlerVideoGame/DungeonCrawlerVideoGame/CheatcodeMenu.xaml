@@ -58,7 +58,7 @@
                            Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <Button x:Name="onsterfelijkheid" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
                     <Button.Background>
-                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
@@ -69,7 +69,7 @@
                            Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <Button x:Name="tijd" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
                     <Button.Background>
-                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
@@ -80,7 +80,7 @@
                            Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <Button x:Name="vijanden" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
                     <Button.Background>
-                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
@@ -91,7 +91,7 @@
                            Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
                 <Button x:Name="wapen" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
                     <Button.Background>
-                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
@@ -102,7 +102,7 @@
                 FontFamily="{StaticResource PixelFont}" FontSize="25" FontWeight="Bold"
                 Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,30,30" Width="131">
             <Button.Background>
-                <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg"/>
             </Button.Background>
         </Button>
     </Grid>

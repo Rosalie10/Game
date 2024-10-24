@@ -1,0 +1,10 @@
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.csproj.AssemblyReference.cache
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\CheatcodeMenu.g.cs
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\Introduction.g.cs
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\Level1.g.cs
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\MainWindow.g.cs
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\SettingsScreen.g.cs
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\App.g.cs
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame_Content.g.cs
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame_MarkupCompile.cache
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame_MarkupCompile.lref
