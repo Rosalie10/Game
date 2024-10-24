@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\",
+  "WorkspaceRootPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\users\\shen\\documents\\github\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\settingsscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +25,20 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\school\\hbo\\periode 1 game interaction\\newgit\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\cheatcodemenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\cheatcodemenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\cheatcodemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\cheatcodemenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\school\\hbo\\periode 1 game interaction\\newgit\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\school\\hbo\\periode 1 game interaction\\newgit\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,6 +86,44 @@
               "ViewState": "AgIAAJ4AAAAAAAAAAAAYwMkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T11:45:03.81Z",
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheatcodeMenu.xaml.cs",
+              "DocumentMoniker": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\CheatcodeMenu.xaml.cs",
+              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\CheatcodeMenu.xaml.cs",
+              "ToolTip": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\CheatcodeMenu.xaml.cs",
+              "RelativeToolTip": "DungeonCrawlerVideoGame\\CheatcodeMenu.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwGkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:40:27.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DungeonCrawlerVideoGame\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAIwMYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:38:51.895Z",
               "EditorCaption": ""
             },
             {
@@ -106,6 +158,24 @@
               "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\MainWindow.xaml",
               "RelativeToolTip": "DungeonCrawlerVideoGame\\MainWindow.xaml",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\MainWindow.xaml",
+              "ToolTip": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\MainWindow.xaml",
+              "RelativeToolTip": "DungeonCrawlerVideoGame\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-24T11:16:10.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheatcodeMenu.xaml",
+              "DocumentMoniker": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\CheatcodeMenu.xaml",
+              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\CheatcodeMenu.xaml",
+              "ToolTip": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\CheatcodeMenu.xaml",
+              "RelativeToolTip": "DungeonCrawlerVideoGame\\CheatcodeMenu.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-24T11:36:58.995Z"
             }

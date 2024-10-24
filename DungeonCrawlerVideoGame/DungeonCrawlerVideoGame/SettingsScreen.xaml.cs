@@ -1,41 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using NAudio.CoreAudioApi;
 
 namespace DungeonCrawlerVideoGame
 {
-
-    /// <summary>
-    /// Interaction logic for SettingsScreen.xaml
-    /// </summary>
     public partial class SettingsScreen : Window
     {
         private int volumeSlider = 1;
-        private Button[] _SettingsButton;
+        private Button[] _settingsButtons;
         private int _selectedButtonIndex2 = 0;
-        MediaPlayer mediaPlayer = new MediaPlayer();
+        private MediaPlayer mediaPlayer = new MediaPlayer();
 
         public SettingsScreen()
         {
             InitializeComponent();
+            this.WindowState = WindowState.Maximized; // Het venster maximaliseren
 
-            //this.Loaded += (s, e) => this.Focus(); // Geef focus aan het venster bij laden
-            FocusManager.SetFocusedElement(this, MainScreen2);
+            // Start met het eerste menu-item geselecteerd
+            _settingsButtons = new Button[] { cheatcodes, BackToMain };
+
+            // Voeg keydown events toe voor knoppen navigatie
             KeyDown += SettingsScreen_KeyDown;
-            _SettingsButton = new Button[] { cheatcodes, BackToMain };
             this.Closed += SettingMenu_Closed;
+
+            // Zorg ervoor dat het eerste item een hover-effect heeft bij opstart
+            ApplyHoverEffect(_settingsButtons[_selectedButtonIndex2], true);
+
             BackGroundMusic();
         }
 
@@ -45,27 +40,28 @@ namespace DungeonCrawlerVideoGame
 
             try
             {
-                mediaPlayer.Open(new Uri(backGroundMusic, UriKind.Absolute));  // Open the background music file
+                mediaPlayer.Open(new Uri(backGroundMusic, UriKind.Absolute));
                 mediaPlayer.MediaOpened += (s, e) =>
                 {
-                    mediaPlayer.Play();  // Play the music after the file is loaded
-                    mediaPlayer.Volume = 0.5;  // Adjust volume if necessary
+                    mediaPlayer.Play();
+                    mediaPlayer.Volume = 0.5;
                     mediaPlayer.MediaEnded += (sender, args) =>
                     {
-                        mediaPlayer.Position = TimeSpan.Zero;  // Loop the music
+                        mediaPlayer.Position = TimeSpan.Zero;
                         mediaPlayer.Play();
                     };
                 };
             }
-            catch { Console.WriteLine($"Error loading background music"); }
+            catch
+            {
+                Console.WriteLine("Error loading background music");
+            }
         }
 
         private void SettingMenu_Closed(object sender, EventArgs e)
         {
-
             mediaPlayer.Stop();
             mediaPlayer.Close();
-
         }
 
         private void SettingsScreen_KeyDown(object sender, KeyEventArgs e)
@@ -73,28 +69,36 @@ namespace DungeonCrawlerVideoGame
             switch (e.Key)
             {
                 case Key.W:
+                case Key.Up:
+                case Key.PageUp: // Pijl omhoog of PageUp om omhoog te navigeren
                     NavigateButtons(-1);
                     break;
+
                 case Key.S:
+                case Key.Down:
+                case Key.PageDown: // Pijl omlaag of PageDown om omlaag te navigeren
                     NavigateButtons(1);
                     break;
-                case Key.A:
+
+                case Key.A: // Volume verlagen met A
                     if (volumeSlider > 1)
                     {
                         volumeSlider -= 1;
-                        SetVolume(volumeSlider / 5.0f); // Zet het volume van 0.0f tot 1.0f
+                        SetVolume(volumeSlider / 5.0f);
                         volumeSwitch(volumeSlider);
                     }
                     break;
-                case Key.D:
+
+                case Key.D: // Volume verhogen met D
                     if (volumeSlider < 5)
                     {
                         volumeSlider += 1;
-                        SetVolume(volumeSlider / 5.0f); // Zet het volume van 0.0f tot 1.0f
+                        SetVolume(volumeSlider / 5.0f);
                         volumeSwitch(volumeSlider);
                     }
                     break;
-                case Key.F:
+
+                case Key.Enter: // Bevestig keuze met Enter
                     HandleEnter();
                     break;
             }
@@ -102,22 +106,20 @@ namespace DungeonCrawlerVideoGame
 
         public void NavigateButtons(int direction)
         {
-            ApplyHoverEffect(_SettingsButton[_selectedButtonIndex2], true);
-
+            ApplyHoverEffect(_settingsButtons[_selectedButtonIndex2], false);
 
             _selectedButtonIndex2 += direction;
             if (_selectedButtonIndex2 < 0)
             {
-                _selectedButtonIndex2 = _SettingsButton.Length - 1;
+                _selectedButtonIndex2 = _settingsButtons.Length - 1;
             }
-            else if (_selectedButtonIndex2 >= _SettingsButton.Length)
+            else if (_selectedButtonIndex2 >= _settingsButtons.Length)
             {
                 _selectedButtonIndex2 = 0;
             }
 
-            FocusButton(_SettingsButton[_selectedButtonIndex2]);
+            ApplyHoverEffect(_settingsButtons[_selectedButtonIndex2], true);
         }
-
 
         public void ApplyHoverEffect(Button button, bool grow)
         {
@@ -126,94 +128,82 @@ namespace DungeonCrawlerVideoGame
 
             DoubleAnimation widthAnimation = new DoubleAnimation
             {
-                From = button.ActualWidth,  // Use the button's current width as the start value
-                To = newWidth,              // Set the target width based on 'grow'
-                Duration = TimeSpan.FromSeconds(0.1),  // Animation duration
+                From = button.ActualWidth,
+                To = newWidth,
+                Duration = TimeSpan.FromSeconds(0.1),
                 EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseInOut }
             };
 
-            // Create and configure the height animation
             DoubleAnimation heightAnimation = new DoubleAnimation
             {
-                From = button.ActualHeight,  // Use the button's current height as the start value
-                To = newHeight,              // Set the target height based on 'grow'
-                Duration = TimeSpan.FromSeconds(0.1),  // Animation duration
+                From = button.ActualHeight,
+                To = newHeight,
+                Duration = TimeSpan.FromSeconds(0.1),
                 EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseInOut }
             };
 
-            // Apply the width and height animations to the button
             button.BeginAnimation(WidthProperty, widthAnimation);
             button.BeginAnimation(HeightProperty, heightAnimation);
         }
 
-        public void FocusButton(Button button)
-        {
-            button.Focus();
-            ApplyHoverEffect(button, false);
-        }
-
         private void HandleEnter()
         {
-            if (_SettingsButton[_selectedButtonIndex2] == cheatcodes)
+            // Controleer welke knop is geselecteerd op basis van de index
+            switch (_selectedButtonIndex2)
             {
-                CheatcodeMenu menu = new CheatcodeMenu();
-                menu.Show();
-                this.Close();
-            }
+                case 1: // Als de cheatcodes-knop geselecteerd is
+                    CheatcodeMenu menu = new CheatcodeMenu();
+                    menu.Show();
+                    this.Close();
+                    break;
 
-            if (_SettingsButton[_selectedButtonIndex2] == BackToMain)
-            {
-                MainWindow main = new MainWindow();
-                main.Show();
-                this.Close();
+                case 0: // Als de BackToMain-knop geselecteerd is
+                    MainWindow main = new MainWindow();
+                    main.Show();
+                    this.Close();
+                    break;
+
+                default:
+                    break;
             }
         }
 
-        /*-----------------------------------------------------------------------------------------------*/
 
         private void volumeSwitch(int indexVolume)
         {
-            if (volumeSlider == 1)
+            string imagePath = string.Empty;
+
+            if (indexVolume == 1)
             {
-                string imagePath = "pack://application:,,,/Assets/Menu_UI_Map/VolumeButton/eersteplek.png";
-                volumeChange.Source = new BitmapImage(new Uri(imagePath));
+                imagePath = "pack://application:,,,/Assets/UI/eersteplek.png";
             }
-            if (volumeSlider == 2)
+            else if (indexVolume == 2)
             {
-                string imagePath = "pack://application:,,,/Assets/Menu_UI_Map/VolumeButton/tweedeplek.png";
-                volumeChange.Source = new BitmapImage(new Uri(imagePath));
+                imagePath = "pack://application:,,,/Assets/UI/tweedeplek.png";
             }
-            if (volumeSlider == 3)
+            else if (indexVolume == 3)
             {
-                string imagePath = "pack://application:,,,/Assets/Menu_UI_Map/VolumeButton/derdeplek.png";
-                volumeChange.Source = new BitmapImage(new Uri(imagePath));
+                imagePath = "pack://application:,,,/Assets/UI/derdeplek.png";
             }
-            if (volumeSlider == 4)
+            else if (indexVolume == 4)
             {
-                string imagePath = "pack://application:,,,/Assets/Menu_UI_Map/VolumeButton/vierdeplek.png";
-                volumeChange.Source = new BitmapImage(new Uri(imagePath));
+                imagePath = "pack://application:,,,/Assets/UI/vierdeplek.png";
             }
-            if (volumeSlider == 5)
+            else if (indexVolume == 5)
             {
-                string imagePath = "pack://application:,,,/Assets/Menu_UI_Map/VolumeButton/vijfdeplek.png";
-                volumeChange.Source = new BitmapImage(new Uri(imagePath));
+                imagePath = "pack://application:,,,/Assets/UI/vijfdeplek.png";
             }
+
+            volumeChange.Source = new BitmapImage(new Uri(imagePath));
         }
+
 
         private void SetVolume(float volume)
         {
-            // Zorg ervoor dat het volume tussen 0.0 en 1.0 ligt
             volume = Math.Max(0.0f, Math.Min(1.0f, volume));
-
-            // Verkrijg de audio eindpunt
             var deviceEnumerator = new MMDeviceEnumerator();
             var device = deviceEnumerator.GetDefaultAudioEndpoint(DataFlow.Render, Role.Multimedia);
-
-            // Stel het volume in
             device.AudioEndpointVolume.MasterVolumeLevelScalar = volume;
         }
-
-        /*-----------------------------------------------------------------------------------------------*/
-
     }
 }
