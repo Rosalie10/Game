@@ -30,7 +30,7 @@ namespace DungeonCrawlerVideoGame
         public CheatcodeMenu()
         {
             InitializeComponent();
-
+            this.WindowState = WindowState.Maximized; // Het venster maximaliseren
             //this.Loaded += (s, e) => this.Focus(); // Geef focus aan het venster bij laden
             FocusManager.SetFocusedElement(this, CheatMenuScreen);
             KeyDown += CheatMenuScreen_KeyDown;
@@ -73,26 +73,25 @@ namespace DungeonCrawlerVideoGame
 
         private void CheatMenuScreen_KeyDown(object sender, KeyEventArgs e)
         {
-
             switch (e.Key)
             {
                 case Key.W:
+                case Key.Up:
                     NavigateButtons(-1);
                     break;
                 case Key.S:
+                case Key.Down:
                     NavigateButtons(1);
                     break;
-                case Key.F:
+                case Key.Enter:
                     HandleEnter();
                     break;
-
             }
         }
 
-        public void NavigateButtons(int direction)
+        private void NavigateButtons(int direction)
         {
-            ApplyHoverEffect(_CheatsButton[_selectedButtonIndex3], true);
-
+            ApplyHoverEffect(_CheatsButton[_selectedButtonIndex3], false);
 
             _selectedButtonIndex3 += direction;
             if (_selectedButtonIndex3 < 0)
@@ -107,35 +106,30 @@ namespace DungeonCrawlerVideoGame
             FocusButton(_CheatsButton[_selectedButtonIndex3]);
         }
 
-
-        public void ApplyHoverEffect(Button button, bool grow)
+        private void ApplyHoverEffect(Button button, bool grow)
         {
             double newWidth = grow ? 150 : 170;
             double newHeight = grow ? 60 : 80;
 
             DoubleAnimation widthAnimation = new DoubleAnimation
             {
-                From = button.ActualWidth,  // Use the button's current width as the start value
-                To = newWidth,              // Set the target width based on 'grow'
-                Duration = TimeSpan.FromSeconds(0.1),  // Animation duration
+                To = newWidth,
+                Duration = TimeSpan.FromSeconds(0.1),
                 EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseInOut }
             };
 
-            // Create and configure the height animation
             DoubleAnimation heightAnimation = new DoubleAnimation
             {
-                From = button.ActualHeight,  // Use the button's current height as the start value
-                To = newHeight,              // Set the target height based on 'grow'
-                Duration = TimeSpan.FromSeconds(0.1),  // Animation duration
+                To = newHeight,
+                Duration = TimeSpan.FromSeconds(0.1),
                 EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseInOut }
             };
 
-            // Apply the width and height animations to the button
             button.BeginAnimation(WidthProperty, widthAnimation);
             button.BeginAnimation(HeightProperty, heightAnimation);
         }
 
-        public void FocusButton(Button button)
+        private void FocusButton(Button button)
         {
             button.Focus();
             ApplyHoverEffect(button, false);
