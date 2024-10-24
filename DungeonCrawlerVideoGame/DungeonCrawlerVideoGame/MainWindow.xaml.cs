@@ -19,7 +19,7 @@ namespace DungeonCrawlerVideoGame
 {
     public partial class MainWindow : Window
     {
-        private int _selectedButtonIndex = -1;
+        private int _selectedButtonIndex = 0;
         private Button[] _menuButtons;
         private MediaPlayer mediaPlayer_MainWindow;
 
@@ -41,6 +41,7 @@ namespace DungeonCrawlerVideoGame
             BackGroundMusic();
 
             this.Closed += MainWindow_Closed;
+            ApplyHoverEffect(_menuButtons[_selectedButtonIndex], true);
         }
 
         private void BackGroundMusic()
@@ -84,21 +85,17 @@ namespace DungeonCrawlerVideoGame
 
         private void MainWindow_KeyDown(object sender, KeyEventArgs e)
         {
-
-            if (_selectedButtonIndex == -1) // Check if no button is selected
-            {
-                _selectedButtonIndex = 0; // Set to "Start Game" when any key is pressed
-                //FocusButton(_menuButtons[_selectedButtonIndex]);
-
-            }
-            else
-            {
                 switch (e.Key)
                 {
                     case Key.W:
+                    case Key.Up:
+                    case Key.PageUp:     // PageUp om omhoog te navigeren
                         NavigateButtons(-1);
                         break;
+
                     case Key.S:
+                    case Key.Down:       // Pijl omlaag om omlaag te navigeren
+                    case Key.PageDown:   // PageDown om omlaag te navigeren
                         NavigateButtons(1);
                         break;
                     case Key.Enter:
@@ -107,10 +104,7 @@ namespace DungeonCrawlerVideoGame
                         //case Key.R:
                         //    OpenBossFight();
                         //    break;
-
                 }
-
-            }
         }
 
         //private void OpenBossFight()
