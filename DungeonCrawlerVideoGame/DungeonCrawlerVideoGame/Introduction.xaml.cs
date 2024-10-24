@@ -132,9 +132,9 @@ namespace DungeonCrawlerVideoGame
             };
 
             // Create buttons for hero selection
-            Button hero1Button = CreateHeroButton("1. Puffball", "Assets/Character/PinkMonster/Pink_Monster_Idle1.png", Brushes.LightPink);
-            Button hero2Button = CreateHeroButton("2. Bogzilla", "Assets/Character/DudeMonster/DudeMonster_Idle1.png", Brushes.LightGreen);
-            Button hero3Button = CreateHeroButton("3. Mr.Hoots", "Assets/Character/OwletMonster/OwletMonster_Idle1.png", Brushes.LightSkyBlue);
+            Button hero1Button = CreateHeroButton("1. Puffball", "Assets/Character/Puffball/Pink_Monster_Idle1.png", Brushes.LightPink);
+            Button hero2Button = CreateHeroButton("2. Bogzilla", "Assets/Character/Bogzilla/DudeMonster_Idle1.png", Brushes.LightGreen);
+            Button hero3Button = CreateHeroButton("3. Mr.Hoots", "Assets/Character/Mr.Hoots/OwletMonster_Idle1.png", Brushes.LightSkyBlue);
 
             // Assign click event handlers
             hero1Button.Click += HeroButton_Click;
@@ -218,8 +218,10 @@ namespace DungeonCrawlerVideoGame
             DialogueText.Text = string.Empty;
 
             // Initialize and start the typing timer
-            typingTimer = new DispatcherTimer();
-            typingTimer.Interval = TimeSpan.FromMilliseconds(50); // Adjusts the speed
+            typingTimer = new DispatcherTimer
+            {
+                Interval = TimeSpan.FromMilliseconds(100) // Adjust to 100 ms for more control
+            };
             typingTimer.Tick += TypingTimer_Tick;
             typingTimer.Start();
         }
@@ -228,12 +230,12 @@ namespace DungeonCrawlerVideoGame
         {
             if (currentIndex < currentText.Length)
             {
-                DialogueText.Text += currentText[currentIndex]; // adds letter
-                currentIndex++; // goes to next letter
+                DialogueText.Text += currentText[currentIndex]; // Adds letter
+                currentIndex++; // Goes to next letter
             }
             else
             {
-                typingTimer.Stop(); // Stop the timer
+                typingTimer.Stop(); // Stop the timer when finished
             }
         }
 
