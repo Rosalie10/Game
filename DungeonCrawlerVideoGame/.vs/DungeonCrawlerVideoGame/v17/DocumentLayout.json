@@ -99,6 +99,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Level1.xaml",
+              "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1.xaml",
+              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Level1.xaml",
+              "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1.xaml",
+              "RelativeToolTip": "DungeonCrawlerVideoGame\\Level1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-24T11:00:47.548Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -111,6 +124,15 @@
               "ViewState": "AQIAABcAAAAAAAAAAAAAwGkAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T11:40:27.869Z",
+              "Title": "Level1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1.xaml.cs",
+              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Level1.xaml.cs",
+              "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1.xaml.cs",
+              "RelativeToolTip": "DungeonCrawlerVideoGame\\Level1.xaml.cs",
+              "ViewState": "AgIAANsBAAAAAAAAAAAUwN8BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:56:32.334Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -136,7 +158,8 @@
               "RelativeToolTip": "DungeonCrawlerVideoGame\\Level1Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:38:26.862Z"
+              "WhenOpened": "2024-10-24T11:38:26.862Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
