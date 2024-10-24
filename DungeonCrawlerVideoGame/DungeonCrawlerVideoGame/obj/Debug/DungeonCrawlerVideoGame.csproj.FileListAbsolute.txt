@@ -53,3 +53,44 @@ C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\Dun
 C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonC.851C6DA6.Up2Date
 C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.exe
 C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.pdb
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\DungeonCrawlerVideoGame.exe.config
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\DungeonCrawlerVideoGame.exe
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\DungeonCrawlerVideoGame.pdb
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Asio.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Core.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Midi.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Wasapi.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.WinForms.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.WinMM.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\System.Security.AccessControl.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Asio.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Core.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Midi.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.Wasapi.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.WinForms.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\NAudio.WinMM.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\System.Security.AccessControl.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\CheatcodeMenu.baml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\Introduction.baml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\Level1.baml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\MainWindow.baml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\SettingsScreen.baml
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.g.resources
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.Properties.Resources.resources
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.csproj.GenerateResource.cache
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.csproj.CoreCompileInputs.cache
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonC.851C6DA6.Up2Date
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.exe
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\DungeonCrawlerVideoGame.pdb
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Backstreet Boys - I Want It That Way (Lyrics) [ ezmp3.cc ].mp3
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Faster_8_Bit_Menu.mp3
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Journey - Don't Stop Believin' (Lyrics) [ ezmp3.cc ].mp3
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Justin Timberlake - Can't Stop The Feeling! [Lyrics] [ ezmp3.cc ].mp3
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Mark Ronson - Uptown Funk (Lyrics) ft. Bruno Mars [ ezmp3.cc ].mp3
+C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Nostalgia_Fast_PossibleDeathMusic.mp3
