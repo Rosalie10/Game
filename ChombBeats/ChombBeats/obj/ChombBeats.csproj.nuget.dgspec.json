@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChomBeatsDungeon\\ChomBeatsDungeon\\ChomBeatsDungeon.csproj": {}
+    "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj": {}
   },
   "projects": {
-    "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChomBeatsDungeon\\ChomBeatsDungeon\\ChomBeatsDungeon.csproj": {
+    "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChomBeatsDungeon\\ChomBeatsDungeon\\ChomBeatsDungeon.csproj",
-        "projectName": "ChomBeatsDungeon",
-        "projectPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChomBeatsDungeon\\ChomBeatsDungeon\\ChomBeatsDungeon.csproj",
+        "projectUniqueName": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj",
+        "projectName": "ChombBeats",
+        "projectPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj",
         "packagesPath": "C:\\Users\\rosal\\.nuget\\packages\\",
-        "outputPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChomBeatsDungeon\\ChomBeatsDungeon\\obj\\",
+        "outputPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rosal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -43,8 +43,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -59,6 +59,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
