@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\",
+  "WorkspaceRootPath": "C:\\Users\\shen\\Documents\\GitHub\\Game\\ChombBeats\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{295EEE45-76D9-4731-9316-D2A3217C40CD}|ChombBeats\\ChombBeats.csproj|c:\\school\\hbo\\periode 1 game interaction\\newgit\\game\\chombbeats\\chombbeats\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{295EEE45-76D9-4731-9316-D2A3217C40CD}|ChombBeats\\ChombBeats.csproj|c:\\users\\shen\\documents\\github\\game\\chombbeats\\chombbeats\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{295EEE45-76D9-4731-9316-D2A3217C40CD}|ChombBeats\\ChombBeats.csproj|solutionrelative:chombbeats\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{295EEE45-76D9-4731-9316-D2A3217C40CD}|ChombBeats\\ChombBeats.csproj|c:\\school\\hbo\\periode 1 game interaction\\newgit\\game\\chombbeats\\chombbeats\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{295EEE45-76D9-4731-9316-D2A3217C40CD}|ChombBeats\\ChombBeats.csproj|solutionrelative:chombbeats\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,43 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\ChombBeats\\ChombBeats\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChombBeats\\MainWindow.xaml",
-              "ToolTip": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\ChombBeats\\ChombBeats\\MainWindow.xaml",
               "RelativeToolTip": "ChombBeats\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-24T10:26:10.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ChombBeats\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ChombBeats\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T10:26:07.045Z",
+              "WhenOpened": "2024-10-24T10:34:54.457Z",
               "EditorCaption": ""
             }
           ]

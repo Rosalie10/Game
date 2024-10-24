@@ -5,8 +5,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChombBeats"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+                Title="MainWindow" Width="1920" Height="1080">
 
+    <Window.Resources>
+        <QuadraticEase x:Key="QuadraticEase" EasingMode="EaseInOut" />
+        <FontFamily x:Key="PixelFont">pack://application:,,,/Assets/Fonts/#Press Start 2P</FontFamily>
+
+        <!-- Button Style with Corner Radius -->
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="Black" 
+                                CornerRadius="20">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontFamily" Value="{StaticResource PixelFont}"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
+
+
+    <Grid Name="MainScreen">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets\Background\PurpleDungeon.jpeg"/>
+        </Grid.Background>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="StartGame" Content="Start Game" Height="100" Width="300" Margin="50"
+                    FontFamily="{StaticResource PixelFont}" FontSize="25" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg" />
+                </Button.Background>
+            </Button>
+
+            <Button Name="Settings" Content="Settings" Height="100" Width="300" Margin="50"
+                    FontFamily="{StaticResource PixelFont}" FontSize="25" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg" />
+                </Button.Background>
+            </Button>
+
+            <Button Name="ExitGame" Content="Exit Game" Height="100" Width="300" Margin="50"
+                    FontFamily="{StaticResource PixelFont}" FontSize="25" FontWeight="Bold">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Assets\UI\Button_UI2.jpeg" />
+                </Button.Background>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
+

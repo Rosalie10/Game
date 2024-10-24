@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\rosal\\.nuget\\packages\\": {}
+    "C:\\Users\\shen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj",
+      "projectUniqueName": "C:\\Users\\shen\\Documents\\GitHub\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj",
       "projectName": "ChombBeats",
-      "projectPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj",
-      "packagesPath": "C:\\Users\\rosal\\.nuget\\packages\\",
-      "outputPath": "C:\\school\\hbo\\periode 1 Game Interaction\\newGit\\Game\\ChombBeats\\ChombBeats\\obj\\",
+      "projectPath": "C:\\Users\\shen\\Documents\\GitHub\\Game\\ChombBeats\\ChombBeats\\ChombBeats.csproj",
+      "packagesPath": "C:\\Users\\shen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shen\\Documents\\GitHub\\Game\\ChombBeats\\ChombBeats\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rosal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

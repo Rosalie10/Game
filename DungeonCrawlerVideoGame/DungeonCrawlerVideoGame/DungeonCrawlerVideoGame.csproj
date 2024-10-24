@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DungeonCrawlerVideoGame</RootNamespace>
+    <AssemblyName>DungeonCrawlerVideoGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Level1.xaml.cs">
+      <DependentUpon>Level1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsScreen.xaml.cs">
+      <DependentUpon>SettingsScreen.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CheatcodeMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Introduction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Level1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CheatcodeMenu.xaml.cs">
+      <DependentUpon>CheatcodeMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GameData.cs" />
+    <Compile Include="Introduction.xaml.cs">
+      <DependentUpon>Introduction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="SettingsScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Assets\Fonts\PressStart2P-Regular.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Background\Level1Background.jpg" />
+    <Resource Include="Assets\Background\Level1Muur.png" />
+    <Resource Include="Assets\Background\Level1SideWall1.png" />
+    <Resource Include="Assets\Background\MuurLevel1.jpg" />
+    <Resource Include="Assets\Background\NextBackgrond.png" />
+    <Resource Include="Assets\Background\PurpleDungeon.jpeg" />
+    <Resource Include="Assets\Background\SettingsBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death5.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death6.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death7.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Death8.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Idle1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Idle2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Idle3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_Idle4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunLeft1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunLeft2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunLeft3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunLeft4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunLeft5.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunLeft6.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunRight1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunRight2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunRight3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunRight4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunRight5.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunRight6.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunUp1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunUp2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunUp3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_RunUp4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V1Attack1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V1Attack2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V1Attack3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V1Attack4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V2Attack1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V2Attack2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V2Attack3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V2Attack4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V2Attack5.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V2Attack6.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V3Attack1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V3Attack2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V3Attack3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V3Attack4.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V3Attack5.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V3Attack6.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V4Attack1.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V4Attack2.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V4Attack3.png" />
+    <Resource Include="Assets\Characters\Bogzilla\DudeMonster_V4Attack4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death5.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death6.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death7.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Death8.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Idle1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Idle2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Idle3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_Idle4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunLeft1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunLeft2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunLeft3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunLeft4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunLeft5.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunLeft6.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunRight1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunRight2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunRight3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunRight4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunRight5.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunRight6.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunUp1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunUp2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunUp3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_RunUp4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V1Attack1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V1Attack2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V1Attack3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V1Attack4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V2Attack1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V2Attack2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V2Attack3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V2Attack4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V2Attack5.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V2Attack6.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V3Attack1.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V3Attack2.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V3Attack3.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V3Attack4.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V3Attack5.png" />
+    <Resource Include="Assets\Characters\Mr.Hoots\OwletMonster_V3Attack6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_RunUp1.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_RunUp2.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_RunUp3.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_RunUp4.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_Run_01.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_Run_02.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_Run_03.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_Run_04.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_Run_05.png" />
+    <Resource Include="Assets\Characters\Puffball\PinkMonster_Run_06.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death1.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death2.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death3.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death4.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death5.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death6.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death7.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Death8.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Idle1.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Idle2.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Idle3.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_Idle4.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_RunLeft1.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_RunLeft2.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_RunLeft3.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_RunLeft4.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_RunLeft5.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_RunLeft6.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V1Attack1.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V1Attack2.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V1Attack3.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V1Attack4.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V2Attack1.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V2Attack2.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V2Attack3.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V2Attack4.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V2Attack5.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V2Attack6.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V3Attack1.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V3Attack2.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V3Attack3.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V3Attack4.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V3Attack5.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V3Attack6.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V4Attack1.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V4Attack2.png" />
+    <Resource Include="Assets\Characters\Puffball\Pink_Monster_V4Attack4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Items\00.png" />
+    <Resource Include="Assets\Items\10.png" />
+    <Resource Include="Assets\Items\20.png" />
+    <Resource Include="Assets\Items\30.png" />
+    <Resource Include="Assets\Items\Bar.png" />
+    <Resource Include="Assets\Items\candle %281%29.png" />
+    <Resource Include="Assets\Items\candle %282%29.png" />
+    <Resource Include="Assets\Items\candle %283%29.png" />
+    <Resource Include="Assets\Items\candle %284%29.png" />
+    <Resource Include="Assets\Items\dungeon-barrel.png" />
+    <Resource Include="Assets\Items\dungeon-box.png" />
+    <Resource Include="Assets\Items\MusicNote.png" />
+    <Resource Include="Assets\Items\Weapon1.PNG" />
+    <Resource Include="Assets\Items\Weapon2.png" />
+    <Resource Include="Assets\Items\Weapon3.gif" />
+    <Resource Include="Assets\Items\Weapon3.png" />
+    <Resource Include="Assets\Items\Weapon4.png" />
+    <Resource Include="Assets\Items\WeaponBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Music\Backstreet Boys - I Want It That Way %28Lyrics%29 [ ezmp3.cc ].mp3" />
+    <Content Include="Assets\Music\Faster_8_Bit_Menu.mp3" />
+    <Content Include="Assets\Music\Journey - Don%27t Stop Believin%27 %28Lyrics%29 [ ezmp3.cc ].mp3" />
+    <Content Include="Assets\Music\Justin Timberlake - Can%27t Stop The Feeling! [Lyrics] [ ezmp3.cc ].mp3" />
+    <Content Include="Assets\Music\Mark Ronson - Uptown Funk %28Lyrics%29 ft. Bruno Mars [ ezmp3.cc ].mp3" />
+    <Content Include="Assets\Music\Nostalgia_Fast_PossibleDeathMusic.mp3" />
+    <Resource Include="Assets\UI\Button_UI2.jpeg" />
+    <Resource Include="Assets\UI\Button_UI2Toggle.jpeg" />
+    <Resource Include="Assets\UI\derdeplek.png" />
+    <Resource Include="Assets\UI\eersteplek.png" />
+    <Resource Include="Assets\UI\tweedeplek.png" />
+    <Resource Include="Assets\UI\vierdeplek.png" />
+    <Resource Include="Assets\UI\vijfdeplek.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

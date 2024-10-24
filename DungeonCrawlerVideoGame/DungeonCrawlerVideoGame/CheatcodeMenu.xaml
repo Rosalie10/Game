@@ -1,0 +1,110 @@
+﻿<Window x:Class="DungeonCrawlerVideoGame.CheatcodeMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DungeonCrawlerVideoGame"
+        mc:Ignorable="d"
+        Title="CheatMenuScreen" Height="450" Width="800"
+        KeyDown="CheatMenuScreen_KeyDown">
+
+    <Window.Resources>
+        <QuadraticEase x:Key="QuadraticEase" EasingMode="EaseInOut" />
+        <FontFamily x:Key="PixelFont">pack://application:,,,/Assets/Fonts/#Press Start 2P</FontFamily>
+
+        <!-- Button Style with Corner Radius -->
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="Black" 
+                                CornerRadius="20">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontFamily" Value="{StaticResource PixelFont}"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Name="CheatMenuScreen">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Background/NextBackgrond.png"/>
+        </Grid.Background>
+
+        <!-- Definitie van rijen en kolommen in de grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Middenvak met een StackPanel voor verticale uitlijning -->
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Eerste cheat -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <TextBlock Text=" Onsterfelijkheid " FontFamily="{StaticResource PixelFont}" FontSize="16" FontWeight="Bold" 
+                           Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <Button x:Name="onsterfelijkheid" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
+                    <Button.Background>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <!-- Tweede cheat -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <TextBlock Text="  Onbeperkte tijd " FontFamily="{StaticResource PixelFont}" FontSize="16" FontWeight="Bold" 
+                           Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <Button x:Name="tijd" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
+                    <Button.Background>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <!-- Derde cheat -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <TextBlock Text="   Geen vijanden  " FontFamily="{StaticResource PixelFont}" FontSize="16" FontWeight="Bold" 
+                           Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <Button x:Name="vijanden" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
+                    <Button.Background>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <!-- Vierde cheat -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                <TextBlock Text="Wapens ontgrendeld" FontFamily="{StaticResource PixelFont}" FontSize="16" FontWeight="Bold" 
+                           Foreground="Black" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <Button x:Name="wapen" Width="100" Height="50" FontFamily="{StaticResource PixelFont}" FontSize="25">
+                    <Button.Background>
+                        <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Terug-knop onderaan -->
+        <Button x:Name="BackToSetting" BorderThickness="0" Content="Terug"
+                FontFamily="{StaticResource PixelFont}" FontSize="25" FontWeight="Bold"
+                Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,30,30" Width="131">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://application:,,,/Assets/Menu_UI_Map/Button_UI2.jpeg"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
+

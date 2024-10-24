@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChombBeats")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5d88ea64336b1efd1e9147d073128a97cbda59a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0048e522b152e91cd6f7e9b5e9beb982b6f1544")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChombBeats")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChombBeats")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
