@@ -1,0 +1,45 @@
+﻿<Window x:Class="DungeonCrawlerVideoGame.NotFinishedCheats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Informatie" Height="250" Width="350"
+        WindowStartupLocation="CenterScreen" Background="#F3F3F3">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#FFF8F8F8"/>
+        </Grid.Background>
+
+        <TextBlock Text="Het spijt me, maar de win factors zijn er nog niet." 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" 
+                   TextWrapping="Wrap" Margin="10" FontSize="16" 
+                   FontWeight="Medium" Foreground="#0b0b20"/>
+
+        <ProgressBar Name="LoadingBar" Height="20" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Bottom" 
+                      Margin="20,0,20,50" IsIndeterminate="True" 
+                      Background="#76749D" Foreground="#462060"/>
+
+        <Button Content="Oke" HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                Margin="0,0,0,10" Click="OkButton_Click" 
+                Padding="10,5" FontSize="14" FontWeight="Bold" 
+                Background="#76749D" Foreground="White" 
+                BorderBrush="#462060" BorderThickness="2"
+                Cursor="Hand">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#76749D"/>
+                    <Setter Property="BorderBrush" Value="#462060"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="Padding" Value="10,5"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#76749D"/>
+                            <Setter Property="BorderBrush" Value="#462060"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

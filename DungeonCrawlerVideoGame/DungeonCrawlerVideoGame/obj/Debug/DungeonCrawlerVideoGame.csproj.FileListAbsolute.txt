@@ -94,3 +94,11 @@ C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoG
 C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Justin Timberlake - Can't Stop The Feeling! [Lyrics] [ ezmp3.cc ].mp3
 C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Mark Ronson - Uptown Funk (Lyrics) ft. Bruno Mars [ ezmp3.cc ].mp3
 C:\Users\shen\Documents\GitHub\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Nostalgia_Fast_PossibleDeathMusic.mp3
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Backstreet Boys - I Want It That Way (Lyrics) [ ezmp3.cc ].mp3
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Faster_8_Bit_Menu.mp3
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Journey - Don't Stop Believin' (Lyrics) [ ezmp3.cc ].mp3
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Justin Timberlake - Can't Stop The Feeling! [Lyrics] [ ezmp3.cc ].mp3
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Mark Ronson - Uptown Funk (Lyrics) ft. Bruno Mars [ ezmp3.cc ].mp3
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\bin\Debug\Assets\Music\Nostalgia_Fast_PossibleDeathMusic.mp3
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\NotFinishedCheats.baml
+C:\school\hbo\periode 1 Game Interaction\newGit\Game\DungeonCrawlerVideoGame\DungeonCrawlerVideoGame\obj\Debug\NotFinishedCheats.g.cs

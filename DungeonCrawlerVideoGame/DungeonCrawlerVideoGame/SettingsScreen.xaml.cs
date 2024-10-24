@@ -36,7 +36,7 @@ namespace DungeonCrawlerVideoGame
 
         private void BackGroundMusic()
         {
-            string backGroundMusic = @"E:\Chom-Bombs-\Chom game\Chom game\Assets\Music\Faster_8_Bit_Menu.mp3";
+            string backGroundMusic = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets/Music/Faster_8_Bit_Menu.mp3");
 
             try
             {
@@ -152,9 +152,11 @@ namespace DungeonCrawlerVideoGame
             switch (_selectedButtonIndex2)
             {
                 case 1: // Als de cheatcodes-knop geselecteerd is
-                    CheatcodeMenu menu = new CheatcodeMenu();
+                    //CheatcodeMenu menu = new CheatcodeMenu();
+                    //menu.Show();
+                    //this.Close();
+                    NotFinishedCheats menu = new NotFinishedCheats();
                     menu.Show();
-                    this.Close();
                     break;
 
                 case 0: // Als de BackToMain-knop geselecteerd is
