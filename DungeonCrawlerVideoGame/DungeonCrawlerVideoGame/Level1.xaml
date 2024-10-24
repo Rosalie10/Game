@@ -15,33 +15,34 @@
                     <ImageBrush ImageSource="Assets/Background/Level1Background.jpg" Stretch="Fill"/>
                 </Canvas.Background>
 
-                <Rectangle x:Name="MainCharacter" Fill="Aquamarine" Height="100" Width="100" Canvas.Left="154" Canvas.Top="106"/>
+                <Rectangle x:Name="MainCharacter" Fill="Aquamarine" Height="100" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="1700" Canvas.Top="1000"/>
 
-                <Rectangle x:Name="MusicNote" Height="50" Width="50" Canvas.Left="800" Canvas.Top="106" RenderTransformOrigin="12.41,2.421">
+                <Rectangle x:Name="MusicNote1" Height="50" Width="50" Canvas.Left="177" Canvas.Top="168" RenderTransformOrigin="12.41,2.421">
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Weapons/MusicNote.png" Stretch="Fill"/>
+                        <ImageBrush ImageSource="Assets\Items\MusicNote.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
 
-                <Rectangle x:Name="MusicNote2" Height="50" Width="50" Canvas.Left="1500" Canvas.Top="700" RenderTransformOrigin="12.41,2.421">
+                <Rectangle x:Name="MusicNote2" Height="50" Width="50" Canvas.Left="3285" Canvas.Top="168" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Center">
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Weapons/MusicNote.png" Stretch="Fill"/>
+                        <ImageBrush ImageSource="Assets\Items\MusicNote.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
 
-                <Rectangle x:Name="MusicNote3" Height="50" Width="50" Canvas.Left="373" Canvas.Top="1865" RenderTransformOrigin="12.41,2.421">
+                <Rectangle x:Name="MusicNote3" Height="50" Width="50" Canvas.Left="3285" Canvas.Top="1830" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Center" VerticalAlignment="Top">
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Weapons/MusicNote.png" Stretch="Fill"/>
+                        <ImageBrush ImageSource="Assets\Items\MusicNote.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
 
-                <Rectangle x:Name="MusicNote4" Height="50" Width="50" Canvas.Left="3192" Canvas.Top="131" RenderTransformOrigin="12.41,2.421">
+                <Rectangle x:Name="MusicNote4" Height="50" Width="50" Canvas.Left="177" Canvas.Top="1830" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Center" VerticalAlignment="Top">
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Weapons/MusicNote.png" Stretch="Fill"/>
+                        <ImageBrush ImageSource="Assets\Items\MusicNote.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
 
-                <Rectangle x:Name="Barrel" Height="50" Width="50" Canvas.Left="695" Canvas.Top="35" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="25" RadiusY="25">
+
+                <Rectangle x:Name="Barrel1" Height="50" Width="50" Canvas.Left="2645" Canvas.Top="1704" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -51,10 +52,11 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/dungeon-barrel.png" Stretch="Fill"/>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
-                <Rectangle x:Name="Box" Height="50" Width="50" Canvas.Left="361" Canvas.Top="729" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+
+                <Rectangle x:Name="Barrel2" Height="50" Width="50" Canvas.Left="1303" Canvas.Top="500" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="25" RadiusY="25">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -64,10 +66,181 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/dungeon-barrel.png" Stretch="Uniform"/>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
-                <Rectangle x:Name="chest" Height="50" Width="100" Canvas.Left="2485" Canvas.Top="643" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="25" RadiusY="25">
+
+                <Rectangle x:Name="Barrel3" Height="50" Width="50" Canvas.Left="749" Canvas.Top="1424" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Barrel4" Height="50" Width="50" Canvas.Left="3099" Canvas.Top="510" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Barrel5" Height="50" Width="50" Canvas.Left="2200" Canvas.Top="1495" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Barrel6" Height="50" Width="50" Canvas.Left="2197" Canvas.Top="496" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Barrel7" Height="50" Width="50" Canvas.Left="2140" Canvas.Top="40" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Barrel8" Height="50" Width="50" Canvas.Left="1126" Canvas.Top="37" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Barrel9" Height="50" Width="50" Canvas.Left="967" Canvas.Top="31" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+
+                <Rectangle x:Name="Box1" Height="50" Width="50" Canvas.Left="404" Canvas.Top="1310" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Box2" Height="50" Width="50" Canvas.Left="405" Canvas.Top="505" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Box3" Height="50" Width="50" Canvas.Left="2891" Canvas.Top="41" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Box4" Height="50" Width="50" Canvas.Left="2311" Canvas.Top="791" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Box5" Height="50" Width="50" Canvas.Left="1186" Canvas.Top="1209" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="25" RadiusY="25">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.797"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets\Items\dungeon-barrel.png" Stretch="Uniform"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+
+                <!--<Rectangle x:Name="chest" Height="50" Width="100" Canvas.Left="2485" Canvas.Top="643" RenderTransformOrigin="12.41,2.421" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="25" RadiusY="25">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -77,9 +250,11 @@
                         </TransformGroup>
                     </Rectangle.RenderTransform>
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/00.png" Stretch="Uniform"/>
+                        <ImageBrush ImageSource="Assets\Items\00.png" Stretch="Uniform"/>
                     </Rectangle.Fill>
-                </Rectangle>
+                </Rectangle>-->
+
+
                 <!--Horizontal wall -->
                 <Rectangle x:Name="Wall" Height="2000" Width="50" Canvas.Left="-12" Canvas.Top="0" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.RenderTransform>
@@ -94,94 +269,82 @@
                         <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
+
                 <Rectangle x:Name="Wall2" Height="2000" Width="50" Canvas.Left="3450" Canvas.Top="0" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
-                <Rectangle x:Name="Wall3" Height="412" Width="49" Canvas.Left="746" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall4" Height="434" Width="49" Canvas.Top="412" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="746">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall5" Height="412" Width="48" Canvas.Left="428" Canvas.Top="1684" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall6" Height="412" Width="48" Canvas.Left="1069" Canvas.Top="1258" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall7" Height="412" Width="49" Canvas.Left="1069" Canvas.Top="1588">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall8" Height="412" Width="49" Canvas.Left="403" Canvas.Top="423" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall9" Height="412" Width="49" Canvas.Left="1069"  Canvas.Top="846" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall10" Height="412" Width="48" Canvas.Left="1069" Canvas.Top="588" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall11" Height="412" Width="48" Canvas.Left="747" Canvas.Top="846" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall12" Height="412" Width="48" Canvas.Left="2591" Canvas.Top="629" HorizontalAlignment="Left" VerticalAlignment="Center">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall13" Height="412" Width="48" Canvas.Left="2591" Canvas.Top="1000" HorizontalAlignment="Center" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall14" Height="412" Width="48" Canvas.Left="2591" Canvas.Top="1332" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.396,0.398">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall15" Height="412" Width="48" Canvas.Left="2405" Canvas.Top="216" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall16" Height="412" Width="48" Canvas.Left="1315" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top">
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall17" Height="1500" Width="48" Canvas.Left="3139" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center">
+
+                <Rectangle x:Name="Wall3" Height="450" Width="50" Canvas.Left="2250" Canvas.Top="450" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.Fill>
                         <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
-                <Rectangle x:Name="Wall18" Height="412" Width="48" Canvas.Left="1601" Canvas.Top="835" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+                <Rectangle x:Name="Wall4" Height="450" Width="50" Canvas.Left="2250" Canvas.Top="1157" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
 
+                <Rectangle x:Name="Wall5" Height="450" Width="50" Canvas.Left="1250" Canvas.Top="450" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall6" Height="450" Width="50" Canvas.Left="350" Canvas.Top="1157" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall7" Height="450" Width="50" Canvas.Left="1250" Canvas.Top="1157" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall8" Height="450" Width="50" Canvas.Left="1250" Canvas.Top="1157" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall9" Height="431" Width="50" Canvas.Left="800" Canvas.Top="1382" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall10" Height="431" Width="50" Canvas.Left="2699" Canvas.Top="1382" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall11" Height="450" Width="50" Canvas.Left="3152" Canvas.Top="1157" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall12" Height="450" Width="50" Canvas.Left="3152" Canvas.Top="450" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall13" Height="450" Width="50" Canvas.Left="348" Canvas.Top="450" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="1.54" RadiusY="1.54" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+
                 <!--Vertical wall -->
-                <Rectangle x:Name="Wall19" Height="3500" Width="50" Canvas.Left="1721" Canvas.Top="-1740" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                <Rectangle x:Name="Wall14" Height="3500" Width="50" Canvas.Left="1721" Canvas.Top="-1740" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -194,7 +357,8 @@
                         <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
-                <Rectangle x:Name="Wall20" Height="3500" Width="50" Canvas.Left="1721" Canvas.Top="217" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+
+                <Rectangle x:Name="Wall15" Height="3500" Width="50" Canvas.Left="1721" Canvas.Top="217" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -207,38 +371,13 @@
                         <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
-                <Rectangle x:Name="Wall21" Height="412" Width="48" Canvas.Left="216" Canvas.Top="606" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+
+                <Rectangle x:Name="Wall16" Height="450" Width="50" Canvas.Left="1453" Canvas.Top="1357" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
                             <SkewTransform/>
-                            <RotateTransform Angle="90.011"/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Rectangle.RenderTransform>
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall22" Height="288" Width="54" Canvas.Left="311" Canvas.Top="1543" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
-                    <Rectangle.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform Angle="-270.634"/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Rectangle.RenderTransform>
-                    <Rectangle.Fill>
-                        <ImageBrush ImageSource="Assets/Background/Level1Muur.png" Stretch="Fill"/>
-                    </Rectangle.Fill>
-                </Rectangle>
-                <Rectangle x:Name="Wall23" Height="1574" Width="50" Canvas.Left="1830" Canvas.Top="-185" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
-                    <Rectangle.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform Angle="90.61"/>
+                            <RotateTransform Angle="90.076"/>
                             <TranslateTransform/>
                         </TransformGroup>
                     </Rectangle.RenderTransform>
@@ -246,12 +385,13 @@
                         <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
-                <Rectangle x:Name="Wall24" Height="1000" Width="50" Canvas.Left="2073" Canvas.Top="756" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+
+                <Rectangle x:Name="Wall17" Height="450" Width="50" Canvas.Left="2047" Canvas.Top="250" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
                     <Rectangle.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
                             <SkewTransform/>
-                            <RotateTransform Angle="90.606"/>
+                            <RotateTransform Angle="90.076"/>
                             <TranslateTransform/>
                         </TransformGroup>
                     </Rectangle.RenderTransform>
@@ -259,6 +399,176 @@
                         <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
                     </Rectangle.Fill>
                 </Rectangle>
+
+                <Rectangle x:Name="Wall18" Height="449" Width="50" Canvas.Left="1452" Canvas.Top="251" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall19" Height="450" Width="50" Canvas.Left="1005" Canvas.Top="957" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall20" Height="450" Width="50" Canvas.Left="2047" Canvas.Top="1357" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall21" Height="450" Width="50" Canvas.Left="1048" Canvas.Top="1563" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall22" Height="450" Width="50" Canvas.Left="599" Canvas.Top="1180" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall23" Height="450" Width="50" Canvas.Left="1003" Canvas.Top="651" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall24" Height="450" Width="50" Canvas.Left="2445" Canvas.Top="1563" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall25" Height="450" Width="50" Canvas.Left="2902" Canvas.Top="1182" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall26" Height="450" Width="50" Canvas.Left="2499" Canvas.Top="650" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall27" Height="450" Width="50" Canvas.Left="2949" Canvas.Top="954" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall28" Height="450" Width="50" Canvas.Left="2952" Canvas.Top="251" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+                <Rectangle x:Name="Wall29" Height="450" Width="50" Canvas.Left="550" Canvas.Top="251" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="0" RadiusY="0" RenderTransformOrigin="0.5,0.5">
+                    <Rectangle.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="90.076"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Rectangle.RenderTransform>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="Assets/Background/Level1SideWall1.png" Stretch="Fill"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+
+
             </Canvas>
         </ScrollViewer>
 
@@ -267,16 +577,16 @@
 
             <StackPanel Orientation="Horizontal" Height="100" Width="536">
                 <StackPanel.Background>
-                    <ImageBrush ImageSource="Assets/Weapons/WeaponBar.png" Stretch="Fill"/>
+                    <ImageBrush ImageSource="Assets\Items\WeaponBar.png" Stretch="Fill"/>
                 </StackPanel.Background>
                 <Border x:Name="WeaponSlot1" BorderBrush="Transparent" BorderThickness="2" Width="45" Height="45" Margin="3">
-                    <Image Source="Assets/Weapons/Weapon1.png" Stretch="Fill" RenderTransformOrigin="0.512,0.451" Margin="68,-6,-68,6"/>
+                    <Image Source="Assets\Items\Weapon1.PNG" Stretch="Fill" RenderTransformOrigin="0.512,0.451" Margin="68,-6,-68,6"/>
                 </Border>
                 <Border x:Name="WeaponSlot2" BorderBrush="Transparent" BorderThickness="2" Width="45" Height="44" RenderTransformOrigin="0.533,0.568">
-                    <Image Source="Assets/Weapons/Weapon2.png" Stretch="Uniform" Margin="132,-5,-132,5" RenderTransformOrigin="0.439,0.622"/>
+                    <Image Source="Assets\Items\Weapon2.png" Stretch="Uniform" Margin="132,-5,-132,5" RenderTransformOrigin="0.439,0.622"/>
                 </Border>
                 <Border x:Name="WeaponSlot3" BorderBrush="Transparent" BorderThickness="2" Width="45" Height="45">
-                    <Image Source="Assets/Weapons/Weapon3.gif" Stretch="Uniform" Margin="216,-7,-218,5"/>
+                    <Image Source="Assets\Items\Weapon3.png" Stretch="Uniform" Margin="216,-7,-218,5"/>
                 </Border>
                 <Border x:Name="WeaponSlot4" BorderBrush="Transparent" BorderThickness="2" Width="100" Height="70">
                     <!--"<Image Source="Assets/Weapons/Weapon4.png" Stretch="Uniform"/> -->

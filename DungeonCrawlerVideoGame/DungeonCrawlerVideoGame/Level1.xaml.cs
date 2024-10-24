@@ -92,7 +92,6 @@ namespace DungeonCrawlerVideoGame
             this.Closed += Level1_Closed;
 
             EnemyCollision();
-            OpenChestAnimation();
         }
 
         private void Level1_Closed(object sender, EventArgs e)
@@ -166,7 +165,6 @@ namespace DungeonCrawlerVideoGame
                     enemy.IsDefeated = true;
                     enemy.StartEnemyDeath();
 
-                    OpenChest();
                 }
                 else
                 {
@@ -246,71 +244,71 @@ namespace DungeonCrawlerVideoGame
             {
                 idleSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_Idle1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_Idle2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_Idle3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_Idle4.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_Idle1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_Idle2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_Idle3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_Idle4.png")))
                 };
 
                 rightRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_01.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_02.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_03.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_04.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_05.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_06.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_01.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_02.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_03.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_04.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_05.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_06.png"))),
                 };
 
                 leftRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_RunLeft1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_RunLeft2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_RunLeft3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_RunLeft4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_RunLeft5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_RunLeft6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_RunLeft1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_RunLeft2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_RunLeft3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_RunLeft4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_RunLeft5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_RunLeft6.png")))
                 };
 
                 upRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_RunUp1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_RunUp2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_RunUp3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_RunUp4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_RunUp1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_RunUp2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_RunUp3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_RunUp4.png"))),
                 };
 
                 downRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_01.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_02.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_03.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_04.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_05.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/PinkMonster_Run_06.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_01.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_02.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_03.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_04.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_05.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/PinkMonster_Run_06.png"))),
                 };
 
                 fightAnimation1 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V1Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V1Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V1Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V1Attack4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V1Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V1Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V1Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V1Attack4.png"))),
                 };
 
                 fightAnimation2 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V4Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V4Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V4Attack4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V4Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V4Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V4Attack4.png"))),
                 };
 
                 fightAnimation3 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V3Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V3Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V3Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/PinkMonster/Pink_Monster_V3Attack4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V3Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V3Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V3Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Puffball/Pink_Monster_V3Attack4.png"))),
                 };
             }
 
@@ -318,82 +316,82 @@ namespace DungeonCrawlerVideoGame
             {
                 idleSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_Idle1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_Idle2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_Idle3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_Idle4.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_Idle1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_Idle2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_Idle3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_Idle4.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\DudeMonster\DudeMonster_Idle1.png
 
                 rightRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight6.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\DudeMonster\DudeMonster_RunRight1.png
 
                 leftRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunLeft1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunLeft2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunLeft3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunLeft4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunLeft5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunLeft6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunLeft1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunLeft2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunLeft3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunLeft4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunLeft5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/v/DudeMonster_RunLeft6.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\DudeMonster\DudeMonster_RunLeft1.png
 
                 upRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunUp1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunUp2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunUp3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunUp4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunUp1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunUp2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunUp3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunUp4.png"))),
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\DudeMonster\DudeMonster_RunUp1.png
 
                 downRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_RunRight6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_RunRight6.png")))
                 };
 
 
                 fightAnimation1 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V1Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V1Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V1Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V1Attack4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V1Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V1Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V1Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V1Attack4.png"))),
 
                 };
 
 
                 fightAnimation2 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V2Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V2Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V2Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V2Attack4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V2Attack5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V2Attack6.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V2Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V2Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V2Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V2Attack4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V2Attack5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V2Attack6.png"))),
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\DudeMonster\DudeMonster_V2Attack1.png
 
                 fightAnimation3 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V4Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V4Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V4Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/DudeMonster/DudeMonster_V4Attack4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V4Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V4Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V4Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Bogzilla/DudeMonster_V4Attack4.png"))),
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\DudeMonster\DudeMonster_V4Attack1.png
             }
@@ -411,72 +409,72 @@ namespace DungeonCrawlerVideoGame
 
                 rightRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/v/OwletMonster_RunRight6.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_RunRight1.png
 
                 leftRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunLeft1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunLeft2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunLeft3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunLeft4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunLeft5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunLeft6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunLeft1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunLeft2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunLeft3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunLeft4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunLeft5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunLeft6.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_RunLeft1.png
 
                 upRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunUp1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunUp2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunUp3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunUp4.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunUp1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunUp2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunUp3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunUp4.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_RunUp1.png
 
                 downRunningSprites = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_RunRight6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_RunRight6.png")))
                 };
 
 
                 fightAnimation1 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V1Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V1Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V1Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V1Attack4.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V1Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V1Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V1Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V1Attack4.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_V1Attack1.png
 
                 fightAnimation2 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V2Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V2Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V2Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V2Attack4.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V2Attack5.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V2Attack6.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V2Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V2Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V2Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V2Attack4.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V2Attack5.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V2Attack6.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_V2Attack1.png
 
                 fightAnimation3 = new List<ImageBrush>
                 {
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V3Attack1.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V3Attack2.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V3Attack3.png"))),
-                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/OwletMonster/OwletMonster_V3Attack4.png")))
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V3Attack1.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V3Attack2.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V3Attack3.png"))),
+                new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Character/Mr.Hoots/OwletMonster_V3Attack4.png")))
                 };
                 //C:\Users\shen\OneDrive - NHL Stenden\Documents\Github\Chom-Bombs-\Chom game\Chom game\Assets\Character\OwletMonster\OwletMonster_V3Attack1.png
             }
@@ -602,7 +600,7 @@ namespace DungeonCrawlerVideoGame
         {
             Wall, Wall2, Wall3, Wall4, Wall5, Wall6, Wall7, Wall8, Wall9, Wall10,
             Wall11, Wall12, Wall13, Wall14, Wall15, Wall16, Wall17, Wall18,
-            Wall19, Wall20, Wall21, Wall22, Wall23, Wall24
+            Wall19, Wall20, Wall21, Wall22, Wall23, Wall24, Wall25, Wall26, Wall27, Wall28, Wall29
         };
 
                 Console.WriteLine("Attempting to spawn enemy...");
@@ -934,7 +932,7 @@ namespace DungeonCrawlerVideoGame
             string deathMessage = "Je bent dood!!!!";
 
             mediaPlayer.Stop();
-            mediaPlayer.Open(new Uri("E:\\Chom-Bombs-\\Chom game\\Chom game\\Assets\\Music\\Nostalgia_Fast_PossibleDeathMusic.mp3"));
+            mediaPlayer.Open(new Uri(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "Music", "Nostalgia_Fast_PossibleDeathMusic.mp3")));
             mediaPlayer.Play();
 
             timer.Stop();
@@ -959,7 +957,7 @@ namespace DungeonCrawlerVideoGame
             Rect hitBoxMainCharacter = new Rect(currentLeft, currentTop, MainCharacter.Width, MainCharacter.Height);
 
 
-            List<Rectangle> musicNotes = new List<Rectangle> { MusicNote, MusicNote2, MusicNote3, MusicNote4 };
+            List<Rectangle> musicNotes = new List<Rectangle> { MusicNote1, MusicNote2, MusicNote3, MusicNote4 };
 
             foreach (var note in musicNotes)
             {
@@ -980,63 +978,6 @@ namespace DungeonCrawlerVideoGame
                 }
             }
         }
-
-        private void OpenChestAnimation()
-        {
-            chestAnimation = new List<ImageBrush>
-            {
-                   new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Background/00.png"))),
-                   new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Background/10.png"))),
-                   new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Background/20.png"))),
-                   new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Assets/Background/30.png"))),
-            };
-            chestAnimationTimer = new DispatcherTimer();
-            chestAnimationTimer.Interval = TimeSpan.FromMilliseconds(500); // Adjust speed here
-            chestAnimationTimer.Tick += AnimateChest;
-        }
-
-        private void AnimateChest(object sender, EventArgs e)
-        {
-            if (currentSpriteChest < chestAnimation.Count - 1)
-            {
-
-                chest.Fill = chestAnimation[currentSpriteChest];
-                currentSpriteChest++;
-            }
-            else
-            {
-                chest.Fill = chestAnimation[chestAnimation.Count - 1];
-                chestAnimationTimer.Stop();
-            }
-        }
-        private void OpenChest()
-        {
-            double currentLeft = Canvas.GetLeft(MainCharacter);
-            double currentTop = Canvas.GetTop(MainCharacter);
-
-            Rect hitBoxMainCharacter = new Rect(currentLeft, currentTop, MainCharacter.Width, MainCharacter.Height);
-
-            double leftChest = Canvas.GetLeft(chest);
-            double TopChest = Canvas.GetTop(chest);
-
-            Rect hitBoxChest = new Rect(leftChest, TopChest, chest.Width, chest.Height);
-
-            if (verslagenChoms >= 5)
-            {
-                Console.WriteLine("Starting chest animation");
-                chestAnimationTimer.Start();
-
-                //if (hitBoxMainCharacter.IntersectsWith(hitBoxChest))
-                //{
-                //    BossFight boss = new BossFight();
-                //    this.Close();
-                //    boss.Show();
-
-                //}
-            }
-
-        }
     }
-
 }
 
