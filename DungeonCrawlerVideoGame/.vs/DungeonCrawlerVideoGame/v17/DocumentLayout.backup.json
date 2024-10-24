@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\users\\shen\\documents\\github\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\introduction.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\introduction.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\users\\shen\\documents\\github\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\introduction.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\introduction.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\level1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\level1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\level1enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\level1enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\level1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\level1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\users\\shen\\documents\\github\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|c:\\users\\shen\\documents\\github\\game\\dungeoncrawlervideogame\\dungeoncrawlervideogame\\introduction.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\introduction.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\introduction.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\introduction.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\level1enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|solutionrelative:dungeoncrawlervideogame\\level1enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5E343FC-4793-4A93-AFF9-99E1C1DD58C5}|DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame.csproj|C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\dungeoncrawlervideogame\\settingsscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Level1.xaml",
               "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1.xaml",
               "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Level1.xaml",
@@ -59,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Level1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1.xaml.cs",
               "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Level1.xaml.cs",
               "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1.xaml.cs",
               "RelativeToolTip": "DungeonCrawlerVideoGame\\Level1.xaml.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAADwv/YAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAFgCAAAAAAAAAAAUwKsCAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T10:56:32.334Z",
               "IsPinned": true,
@@ -73,20 +73,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Level1Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1Enemy.cs",
+              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Level1Enemy.cs",
+              "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1Enemy.cs",
+              "RelativeToolTip": "DungeonCrawlerVideoGame\\Level1Enemy.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIA5wCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:38:26.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Introduction.xaml.cs",
               "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Introduction.xaml.cs",
               "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Introduction.xaml.cs",
               "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Introduction.xaml.cs",
               "RelativeToolTip": "DungeonCrawlerVideoGame\\Introduction.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAASwCYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwKwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T12:21:30.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Introduction.xaml",
               "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Introduction.xaml",
               "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Introduction.xaml",
@@ -110,19 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Level1Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1Enemy.cs",
-              "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\Level1Enemy.cs",
-              "ToolTip": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\Level1Enemy.cs",
-              "RelativeToolTip": "DungeonCrawlerVideoGame\\Level1Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADvSURBVDhPYxgFCHDx8cX/cavj/mtO0Pyv2qf6P3Jl5H\u002BoFMPbj2//q09QB/OR2SDACCIuP7n8P2JtBIOZtBlDokEiAz87P8ONNzcYwg3DGUEaTOaYgBUjAzZmNoabBTfB\u002BhlS16f\u002B91rg9f/Lly9wk5EBPhcwgYhTT08xeKh4MPDw8EBMJAGADWBlYgVjbADmhV9/fzEo9irC2ciuYIheGf0/bHkYVueDAD4vgJ188v7J/1Froxg8VD0YwrTCGFiZWRkuv7rMkG6RTtBLcAV7bu75P/X0VIa77\u002B8ycLJyMjjIOTB0enWSHCYjDzAwAADfwHLttPx8VwAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-10-24T11:38:26.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\MainWindow.xaml.cs",
@@ -130,12 +131,11 @@
               "RelativeToolTip": "DungeonCrawlerVideoGame\\MainWindow.xaml.cs",
               "ViewState": "AgIAABcAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:37:05.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T11:37:05.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\shen\\Documents\\GitHub\\Game\\DungeonCrawlerVideoGame\\DungeonCrawlerVideoGame\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DungeonCrawlerVideoGame\\MainWindow.xaml",

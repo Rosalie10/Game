@@ -132,9 +132,9 @@ namespace DungeonCrawlerVideoGame
             };
 
             // Create buttons for hero selection
-            Button hero1Button = CreateHeroButton("1. Puffball", "Assets/Character/Puffball/Pink_Monster_Idle1.png", Brushes.LightPink);
-            Button hero2Button = CreateHeroButton("2. Bogzilla", "Assets/Character/Bogzilla/DudeMonster_Idle1.png", Brushes.LightGreen);
-            Button hero3Button = CreateHeroButton("3. Mr.Hoots", "Assets/Character/Mr.Hoots/OwletMonster_Idle1.png", Brushes.LightSkyBlue);
+            Button hero1Button = CreateHeroButton("1. Puffball", "Assets/Characters/Puffball/Pink_Monster_Idle1.png", Brushes.LightPink);
+            Button hero2Button = CreateHeroButton("2. Bogzilla", "Assets/Characters/Bogzilla/DudeMonster_Idle1.png", Brushes.LightGreen);
+            Button hero3Button = CreateHeroButton("3. Mr.Hoots", "Assets/Characters/Mr.Hoots/OwletMonster_Idle1.png", Brushes.LightSkyBlue);
 
             // Assign click event handlers
             hero1Button.Click += HeroButton_Click;
